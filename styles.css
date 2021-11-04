@@ -297,7 +297,7 @@ section {
 }
 
 .projects .title::after{
-    content: "Some stuff";
+    content: "some stuff";
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -315,7 +315,7 @@ section {
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .contact .title::before{
@@ -330,7 +330,7 @@ section {
 }
 
 .contact .title::after{
-    content: "Get in touch";
+    content: "get in touch";
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -341,14 +341,19 @@ section {
     transform: translateX(-50%)
 }
 
-.email-container {
+.email, .location {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.email-container, .location-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.email h3 {
+.email h3, .location h3 {
     display: inline-block;
+    padding-top: 40px;
 }
 
 .contact .contact-content .row {
