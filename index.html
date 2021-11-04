@@ -4,9 +4,155 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='/styles.css'/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <h1>David Hong</h1>
+    <nav class='navbar'>
+        <div class='max-width'>
+            <div class='logo'><a href='#'><span>my</span>Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href='#home'>Home</a></li>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#skills'>Skills</a></li>
+                <li><a href='#projects'>Projects</a></li>
+                <li><a href='#contact'>Contact</a></li>
+            </ul>
+            <div class='menu-btn'>
+                <i class='fa fa-th-large'></i>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class='max-width'>
+            <div class="home-content">
+                <div class='text-1'>Hello, my name is</div>
+                <div class='text-2'>David Hong</div>
+                <div class='text-3'>And I'm a <span>Web Developer</span></div>
+                <a href='#contact'>Hire me</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class='max-width'>
+            <h2 class='title'>About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src='images/Me2.jpg' alt=''/>
+                </div>
+                <div class="column right">
+                    <div class="text">I'm David and I'm a <span>Web Developer</span></div>
+                    <p>&emsp;&emsp;After leading a retail sales team for a fashion jewelry manufacturer for 8-9 years, I wanted to find something more challenging and fun. Fast forward to today and I'm enrolled in an immersive web development bootcamp at Devmountain. My goals are to create amazing animated UI designs and produce thoughtful, dynamic user experiences using smart and clean code. Being around art and music growing up, I've always been more on the creative side so I have a great interest with front end development and UX/UI design.</p>
+                    <br>
+                    <p>&emsp;&emsp;I'm a big lover of comic books, anime, games, football, dancing and music. I always say good music is good music but I particularly love house music and 90's hip hop and r&b. Dancing is my go to stress reliever; it's very liberating letting it all go on a dance floor. </p>
+                    <a href="#">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class='max-width'>
+            <h2 class='title'>Skills</h2>
+            <div class="skills-content">
+                <div class='card'>
+                    <div class='box'>
+                        <div class='skill-box'>
+                            <img src='images/html5.png' id='logo' alt=''/>
+                            <p class='text-box'>HTML</p>
+                        </div>
+                        <div class='skill-box'>
+                            <img src='images/css3.png' id='logo' alt=''/>
+                            <p class='text-box'>CSS</p>
+                        </div>
+                        <div class='skill-box'>
+                            <img src='images/javascript.png' id='logo' alt=''/>
+                            <p class='text-box'>JavaScript</p>
+                        </div>
+                        <div class='skill-box'>
+                            <img src='images/nodejs.png' id='logo' alt=''/>
+                            <p class='text-box'>Node</p>
+                        </div>
+                        <div class='skill-box'>
+                            <img src='images/express.png' id='logo' alt=''/>
+                            <p class='text-box'>Express</p>
+                        </div>
+                        <div class='skill-box'>
+                            <img src='images/react.png' id='logo' alt=''/>
+                            <p class='text-box'>React</p>
+                        </div>
+                        <div class='skill-box'>
+                            <img src='images/redux.png' id='logo' alt=''/>
+                            <p class='text-box'>Redux</p>
+                        </div>
+                        <div class='skill-box'>
+                            <img src='images/postgresql.png' id='logo' alt=''/>
+                            <p class='text-box'>PostgreSQL</p>
+                        </div>
+                        <div class='skill-box'>
+                            <img src='images/python.png' id='logo' alt=''/>
+                            <p class='text-box'>Python</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class='projects' id='projects'>
+        <div class='max-width'>
+            <h2 class='title'>Projects</h2>
+            <div class='projects-container'>
+                <div class='projects'>
+                    <div style="padding:60% 0 0 0;position:relative;">
+                        <iframe src="https://player.vimeo.com/video/642161911?h=caaba73f6f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="screen-recorder-tue-nov-02-2021-18-10-12.webm"></iframe>
+                    </div>
+                    <script src="https://player.vimeo.com/api/player.js"></script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class='contact' id='contact'>
+        <div class='max-width'>
+            <h2 class='title'>Contact me</h2>
+            <div class='email-container'>
+                <div class='email'>
+                    <i class='fa fa-envelope-open' style='font-size:36px;color:orange'></i>
+                    <h3>davidhong037@gmail.com</h3>
+                </div>
+            </div>
+            <div class='contact-content'>
+                <div class='column left'>
+                    <div class='icons'>
+                        <div class='row'>
+                            <div class='contact-box'>
+                                <a href='https://github.com/davidhong037'>
+                                    <img src='images/github.png' id='logo' alt=''/>
+                                </a>
+                                <p class='text-box'>Github</p>
+                            </div>
+                            <div class='contact-box'>
+                                <a href='https://www.linkedin.com/in/david-hong-60a33858/'>
+                                    <img src='images/linkedin.png' id='logo' alt=''/>
+                                </a>
+                                <p class='text-box'>LinkedIn</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src='main.js'></script>
 </body>
 </html>
