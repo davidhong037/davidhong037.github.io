@@ -85,7 +85,7 @@
     color: #fff;
     min-height: 500px;
     background-color: black;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif; 
 }
 
 .home .max-width {
@@ -260,7 +260,9 @@ section {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    padding-top: 50px;
 }
+
 
 .text-box {
     text-align: center;
@@ -297,7 +299,7 @@ section {
 }
 
 .projects .title::after{
-    content: "some stuff";
+    content: "check it out";
     position: absolute;
     bottom: -12px;
     left: 50%;
