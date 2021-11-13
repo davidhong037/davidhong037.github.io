@@ -25,7 +25,7 @@
 
 .navbar.sticky {
     padding: 15px 0;
-    background: orange;
+    background: rgb(71, 82, 146);
 }
 
 .navbar .max-width {
@@ -41,7 +41,7 @@
 }
 
 .navbar .logo a span {
-    color: orange;
+    color: rgb(71, 82, 146);
     transition: all 0.3s ease;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .navbar .menu li a:hover {
-    color: orange;
+    color: rgb(71, 82, 146);
 }
 
 .navbar.sticky .menu li a:hover {
@@ -107,24 +107,24 @@
     margin: 5px 0;
 }
 .home .home-content .text-3 span {
-    color: orange;
+    color: rgb(71, 82, 146);
     font-weight: 500;
 }
 
 .home .home-content a {
     display: inline-block;
-    background: orange;
+    background: rgb(71, 82, 146);
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid orange;
+    border: 2px solid rgb(71, 82, 146);
     transition: all 0.3s ease;
 }
 
 .home .home-content a:hover{
-    color: orange;
+    color: rgb(71, 82, 146);
     background: none;
 }
 
@@ -163,7 +163,7 @@ section {
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: orange;
+    color: rgb(71, 82, 146);
     padding: 5px;
     background: #fff;
     transform: translateX(-50%)
@@ -198,7 +198,7 @@ section {
 }
 
 .about .about-content .right .text span {
-    color: orange;
+    color: rgb(71, 82, 146);
 }
 
 .about .about-content .right p {
@@ -207,19 +207,19 @@ section {
 
 .about .about-content .right a {
     display: inline-block;
-    background: orange;
+    background: rgb(71, 82, 146);
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid orange;
+    border: 2px solid rgb(71, 82, 146);
     transition: all 0.3s ease;
 }
 
 .about .about-content .right a:hover {
-    color: orange;
+    color: rgb(71, 82, 146);
     background: none;
 }
 
@@ -250,7 +250,7 @@ section {
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: orange;
+    color: rgb(71, 82, 146);
     padding: 5px;
     background: #fff;
     transform: translateX(-50%)
@@ -304,7 +304,7 @@ section {
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: orange;
+    color: rgb(71, 82, 146);
     padding: 5px;
     background: #fff;
     transform: translateX(-50%)
@@ -337,7 +337,7 @@ section {
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: orange;
+    color: rgb(71, 82, 146);
     padding: 5px;
     background: #fff;
     transform: translateX(-50%)
