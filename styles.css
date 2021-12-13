@@ -346,6 +346,43 @@ section {
     transition: all 0.3s ease;
 }
 
+.expense-tracker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.expense-tracker img {
+    border-radius: 20px;
+    width: 25rem;
+}
+
+.expense-tracker h2, p  {
+    font-family: 'Poppins';
+    font-weight: 500;
+    line-height: 2rem;
+    margin-top: 1rem;
+}
+
+.expense-tracker button {
+    background-color: rgb(71, 82, 146);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    margin-top: 1rem;    
+}
+
+.expense-tracker button:hover{
+    background: none;
+    color: rgb(71, 82, 146);
+    transition: all 0.3s ease;
+}
+
 .contact .title {
     position: relative;
     text-align: center;
