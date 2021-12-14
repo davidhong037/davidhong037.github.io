@@ -25,7 +25,7 @@
 
 .navbar.sticky {
     padding: 15px 0;
-    background: rgb(71, 82, 146);
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
 }
 
 .navbar .max-width {
@@ -40,7 +40,7 @@
     font-weight: 600;
 }
 
-.navbar .logo a span {
+/* .navbar .logo a span {
     color: rgb(71, 82, 146);
     transition: all 0.3s ease;
 }
@@ -48,7 +48,7 @@
 .navbar.sticky .logo a span {
     color: #fff;
     transition: all 0.3s ease;
-}
+} */
 
 .navbar .menu li {
     list-style: none;
@@ -64,7 +64,7 @@
 }
 
 .navbar .menu li a:hover {
-    color: rgb(71, 82, 146);
+    color: rgb(71, 82, 146);    
 }
 
 .navbar.sticky .menu li a:hover {
@@ -113,7 +113,7 @@
 
 .home .home-content a {
     display: inline-block;
-    background: rgb(71, 82, 146);
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
@@ -207,7 +207,7 @@ section {
 
 .about .about-content .right a {
     display: inline-block;
-    background: rgb(71, 82, 146);
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -221,6 +221,10 @@ section {
 .about .about-content .right a:hover {
     color: rgb(71, 82, 146);
     background: none;
+}
+
+.skills {
+    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));    
 }
 
 .skills .title {
@@ -250,9 +254,9 @@ section {
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: rgb(71, 82, 146);
+    color: black;
     padding: 5px;
-    background: #fff;
+    background: rgb(47,132,159);
     transform: translateX(-50%)
 }
 
@@ -383,6 +387,10 @@ section {
     transition: all 0.3s ease;
 }
 
+.contact {
+   background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));    
+}
+
 .contact .title {
     position: relative;
     text-align: center;
@@ -410,9 +418,9 @@ section {
     bottom: -12px;
     left: 50%;
     font-size: 20px;
-    color: rgb(71, 82, 146);
+    color: black;
     padding: 5px;
-    background: #fff;
+    background: rgb(47,132,159);
     transform: translateX(-50%)
 }
 
