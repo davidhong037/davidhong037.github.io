@@ -387,6 +387,44 @@ section {
     transition: all 0.3s ease;
 }
 
+.recipe-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.recipe-app img {
+    border-radius: 20px;
+    width: 25rem;
+    height: 17rem;
+}
+
+.recipe-app h2, p  {
+    font-family: 'Poppins';
+    font-weight: 500;
+    line-height: 2rem;
+    margin-top: 1rem;
+}
+
+.recipe-app button {
+    background-color: rgb(71, 82, 146);
+    color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    margin-top: 1rem;    
+}
+
+.recipe-app button:hover{
+    background: none;
+    color: rgb(71, 82, 146);
+    transition: all 0.3s ease;
+}
+
 .contact {
    background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));    
 }
